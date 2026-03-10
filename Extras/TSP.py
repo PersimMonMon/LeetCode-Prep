@@ -29,7 +29,7 @@ def solve_tsp(G):
         visited[nearest] = True
         curr = nearest
 
-    # append initial and return order
+    # append initial & return order
     order.append(0)
     return order
 
